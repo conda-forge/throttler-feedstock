@@ -1,4 +1,4 @@
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 
 package:
   name: throttler
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/uburuntu/throttler/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 753bf1954f8580ca6ea7a9787dbacbe29f0da8fb32598a2386a3f04497d00ad9
+  sha256: 3bdf235ed8eb70d68b900bdc35daa854fd5981c298f8de0fb848a42d61f78774
 
 build:
   noarch: python
